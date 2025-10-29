@@ -1,12 +1,10 @@
 function SignalSelect(s, dropDown, axes)
     if s == 1
         col = 'blue';
-        t = -2:0.1:2;
     else
         col = 'red';
-        t = -2:0.1:2;
     end
-    
+    t = -2:0.1:2;
     switch (dropDown.Value)
         case 'rect'
             x = rectpuls(t,2);
